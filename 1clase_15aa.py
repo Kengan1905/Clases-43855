@@ -1,0 +1,1 @@
+print('mira como te borro todo lo que tenias')

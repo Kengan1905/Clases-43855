@@ -1,16 +1,16 @@
 #GIT sistema de control de versiones
 #Tener CUIDADO donde se lo esta utilizando.
-class Persona ():
-    def __str__(self):
-        return 'Yo soy tu padre'
+# class Persona ():
+#     def __str__(self):
+#         return 'Yo soy tu padre'
 
-class Cliente(Persona):
-    def __str__(self):
-        return super().__str__() + ' y yo tu hijo'
+# class Cliente(Persona):
+#     def __str__(self):
+#         return super().__str__() + ' y yo tu hijo'
 
-cliente = Cliente()
+# cliente = Cliente()
 
-print(cliente)
+# print(cliente)
 #GIT: LOS 3 ESTADOS
 #working directory: es cuando git detecta que hay cambios en un archivo y lo manda al working directory
 #staging area: una vez q vamos haciendo cambios q nos parece q estan bien, se va guardando en una cajita "stagin area" "git add es el comando"
@@ -37,4 +37,48 @@ print(cliente)
 #git add(nombres de los archivos que quiero agregar al staging area)
 #Untracked son los que git no esta siguiendo.
 #'git add .' me subo todo a staging area
+# en staging area le damos el signo - (menos) y nos lo devuelve para atras al working directory
+#Antes de pasar las cosas al staging area tenemos q pasar en el 
+#.gitignore las cosas que queremos ignorar
+#git commit -m 'Mensaje' para identificar que es lo que se hizo en esos cambios que yo estoy agregando en mi version estable
+#commit pasa lo de staging area a una version estable
+#es como que agarra la cajita le pone un sello y dice esto esta correcto.
+#git log
+#git log --oneline
+#1 hora de clase.
+#Entonces GIT ADD para pasar de working directory a staging area
+#y GIT COMMIT -m 'mensaje' para pasar de staging area a una version estable
+
+#1 hora 14 min clase GIT - GIT HUB
+
+#git branch es para ver en que rama estamos parados
+#Ramas sirve para crear una rama paralela al trabajo pero aparte del programa donde estan usando todos, porque si algo me sale mal, se va a romper el programa donde estan los otros usuarios.
+#CREAR RAMA: git branch 'nombre a la rama' . Pero me mantiene en la que estoy.
+#Otra forma, git checkout -b 'nombre a la rama' . Crea la nueva rama y me posiciona en la nueva.
+#PARA MOVERNOS DE RAMA: git checkout 'nombre a la rama que nos queremos mover'
+#PARA BORRAR RAMA: git branch -D 'nombre de la rama'
 #
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+
+
+
+
+
+
