@@ -62,7 +62,7 @@
 #ahora, si tiene archivos eliminados, que todavia estan en prueba, me va a borrar los arhivos que tengo en prueba
 #o sea, lo q hace el merge es traerme todos los commit que hay en un lado que no estan en el otro. y me pisa lo que yo estoy teniendo
 #Si yo escribo "git checkout 'copio y pego el codigo amarrillo de un commit' me lleva a en lo que estaba en ese commit
-#
+pass
 #
 #
 #
