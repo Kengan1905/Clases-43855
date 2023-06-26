@@ -57,11 +57,11 @@
 #Otra forma, git checkout -b 'nombre a la rama' . Crea la nueva rama y me posiciona en la nueva.
 #PARA MOVERNOS DE RAMA: git checkout 'nombre a la rama que nos queremos mover'
 #PARA BORRAR RAMA: git branch -D 'nombre de la rama'
-#
-#
-#
-#
-#
+#PARA TRAER TOD0 A LA RAMA EN LA QUE ESTAMOS: git merge 'nombre de la rama que tiene lo que queremos traer'
+#Merge lo que hace es si hay camnbios en algun archivo me trae los cambios, ahora si hay archivos nuevos, me trae esos archivos nuevos y me los agrega
+#ahora, si tiene archivos eliminados, que todavia estan en prueba, me va a borrar los arhivos que tengo en prueba
+#o sea, lo q hace el merge es traerme todos los commit que hay en un lado que no estan en el otro. y me pisa lo que yo estoy teniendo
+#Si yo escribo "git checkout 'copio y pego el codigo amarrillo de un commit' me lleva a en lo que estaba en ese commit
 #
 #
 #
